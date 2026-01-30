@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.crz_titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.cruzadas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.crz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 150px;
+    height: 50px;
+}
+
+.refl_titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.reflexoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.voltar{
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    right: 5%;
+    top: 2%;
+    transform: translate(2%, 5%);
+}
