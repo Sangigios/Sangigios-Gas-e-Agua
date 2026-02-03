@@ -58,7 +58,6 @@
         </div>
 
         <div id="reflexao"></div>
-
         <script>
             function mostrarReflexao(dia) {
             const reflexoes = {
@@ -95,9 +94,13 @@
                 31: 'Todo dia é um convite para crescer, sorrir e tentar de novo.',
             };
 
+            const elementoReflexao = document.getElementById('reflexao');
             document.getElementById('reflexao').style.fontSize = '25px';
             document.getElementById('reflexao').style.color = 'red';
             document.getElementById('reflexao').innerHTML = reflexoes[dia];
+            elementoReflexao.innerText = reflexoes[dia];
+            elementoReflexao.style.margin = '10px'; // ou margem específica
+            elementoReflexao.style.padding = '10px'; // opcional, para espaço interno
             }
         </script>
     </div>

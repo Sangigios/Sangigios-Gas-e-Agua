@@ -63,3 +63,16 @@
     right: 2%;
     /*transform: translate(2%, 5%);*/
 }
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 5px;
+}
+
+.ajuda_cruzadas {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
