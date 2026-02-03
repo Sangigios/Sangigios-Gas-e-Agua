@@ -28,9 +28,9 @@
     width: 200px;
 }
 
-/*.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img {
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img {
     width: 100%;
-}*/
+}  /*Essa modificação que está mostrando já fiz alteração direto no github*/
 
 .card8 {
     position: absolute;
