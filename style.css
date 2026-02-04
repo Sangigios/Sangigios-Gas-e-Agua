@@ -8,12 +8,43 @@ body {
     background: hwb(240 87% 10%);
 }
 
+.menu a {
+  margin: 0 15px; /* 0 em cima/baixo, 15px nos lados */
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
-    gap: 20px; /* espaçamento entre os h2 */
     width: 100%;
     height: auto;
+  }
+
+.card1, .card3 {
+    display: flex;
+    flex-grow: 1;
+    /* ocupam o mesmo espaço */
+    width: 1px;
+}
+
+.card2 {
+    display: flex;
+    flex-grow: 3;
+    /* o dobro do espaço dos outros */
+    width: 200px;
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img {
+    width: 100%;
+}
+
+.card8 {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    transform: rotate(-45deg);
+    left: 0px;
+    font-size: 18px;
+    color: red;
     font-weight: bold;
   }
   
@@ -89,14 +120,6 @@ body {
   background: blue; /* só para visualizar*/ 
 }
 
-
-
-
-
-
-
-
-
 .card1, .card3 {
     display: flex;
     flex-grow: 1;
@@ -156,7 +179,6 @@ body {
 
 .coluna0 {
     width: 120;
-
 }
 
 .coluna1, .card {
