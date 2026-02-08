@@ -26,7 +26,7 @@
 }
 
 .caixa2, .caixa3 {
-    background-color: aqua;  
+    background-color: rgb(107, 141, 160);  
     padding: 10px;
     margin: 5px;
     width: 100%;
@@ -36,10 +36,14 @@
     color: black;
 }
 
+p {
+  text-align: justify;
+}
+
 .equipe {
   display: flex;
   justify-content: space-around; /* centraliza horizontalmente */
-  background: yellow;
+  background: rgb(100, 100, 70);
   width: 100%;
   border: 10px solid rgb(105, 79, 7);
   border-radius: 10px;

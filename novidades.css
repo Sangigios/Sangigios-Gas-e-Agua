@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #95af95;
+    background: hsl(120, 8%, 48%);
 }
 
 .crz_titulo {
@@ -52,7 +52,7 @@ body {
 }
 
 .reflexoes button {
-  background-color: blue;
+  background-color: rgb(81, 81, 104);
   color: white;
   padding: 10px 20px;
   border: none;

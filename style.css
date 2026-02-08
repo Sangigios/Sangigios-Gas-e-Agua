@@ -53,7 +53,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
-    /*border: 1px solid;*/
 }
 
 .meio {
@@ -99,7 +98,6 @@ body {
 }
 
 .small-card {
-    border: 3px solid black;
     font-size: 14px;
     color:blue;
     width: 150px;
@@ -112,18 +110,16 @@ body {
   justify-content: center;
   align-content: center;
   font-size: 17px;
-  color: red;
-  border: 3px solid black;
+  color: black;
   flex-wrap: wrap;
   width: 310px;
   height: 100%;
-  background: blue; /* só para visualizar*/ 
+  background: hsl(240, 14%, 65%); /* só para visualizar*/ 
 }
 
 .card1, .card3 {
     display: flex;
     flex-grow: 1;
-    /* ocupam o mesmo espaço */
     width: 10px;
 }
 
