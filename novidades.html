@@ -20,9 +20,13 @@
             <div class="crz"><a href="crz_04.html" target="_blank">Animais</a></div>
             <div class="crz"><a href="crz_05.html" target="_blank">Carros</a></div>
             <div class="crz"><a href="crz_06.html" target="_blank">Nomes Bíblicos</a></div>
+            <div class="crz"><a href="crz_07.html" target="_blank">Verbos</a></div>
         </div>
 
         <h2 class="refl_titulo">Reflexões</h2>
+
+        <div id="reflexao"></div>
+
         <div class="reflexoes">
             <button onclick="mostrarReflexao(1)">01</button>
             <button onclick="mostrarReflexao(2)">02</button>
@@ -66,7 +70,7 @@
             <button onclick="mostrarReflexao(40)">40</button>
         </div>
 
-        <div id="reflexao"></div>
+        <!--<div id="reflexao"></div> Mandado para cima-->
         <script>
             function mostrarReflexao(dia) {
             const reflexoes = {
@@ -115,8 +119,8 @@
             const elementoReflexao = document.getElementById('reflexao');
             document.getElementById('reflexao').innerHTML = reflexoes[dia];
             elementoReflexao.innerText = reflexoes[dia];
-            document.getElementById('reflexao').style.fontSize = '25px';
-            document.getElementById('reflexao').style.color = 'whhite';
+            document.getElementById('reflexao').style.fontSize = '20px';
+            document.getElementById('reflexao').style.color = 'black';
             elementoReflexao.style.margin = '10px'; // ou margem específica
             elementoReflexao.style.padding = '10px'; // opcional, para espaço interno
             }
